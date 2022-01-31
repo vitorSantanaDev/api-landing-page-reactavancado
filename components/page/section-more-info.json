@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_more_infos",
+  "info": {
+    "name": "sectionMoreInfo",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "descriptionLeft": {
+      "type": "richtext",
+      "required": true
+    },
+    "descriptionRight": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
