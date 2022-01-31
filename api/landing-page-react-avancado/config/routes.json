@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/landing-page-react-avancado",
+      "handler": "landing-page-react-avancado.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/landing-page-react-avancado",
+      "handler": "landing-page-react-avancado.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/landing-page-react-avancado",
+      "handler": "landing-page-react-avancado.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
