@@ -47,6 +47,12 @@
       "repeatable": false,
       "component": "page.section-more-info",
       "required": true
+    },
+    "sectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
     }
   }
 }
