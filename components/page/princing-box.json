@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_princing_boxes",
+  "info": {
+    "name": "princingBox",
+    "icon": "money-bill-wave"
+  },
+  "options": {},
+  "attributes": {
+    "totalprice": {
+      "type": "integer",
+      "required": true,
+      "default": 579
+    },
+    "promotionalPrice": {
+      "type": "integer",
+      "required": true,
+      "default": 279
+    },
+    "benefits": {
+      "type": "richtext",
+      "default": "Created as bullet list",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}
