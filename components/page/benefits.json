@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_benefits",
+  "info": {
+    "name": "benefits",
+    "icon": "gift"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true,
+      "default": "Created items as bullet list"
+    }
+  }
+}
